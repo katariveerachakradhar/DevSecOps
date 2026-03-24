@@ -1,0 +1,9 @@
+🔹 CI/CD Flow with Security Integration
+
+1. Code Commit (Trigger)
+2. Continuous Integration (CI)
+3. Dependency Security
+4. Container Security (if using Docker)
+5. Secrets Management
+6. Continuous Deployment (CD)
+7. DAST (Runtime Security Testing)
