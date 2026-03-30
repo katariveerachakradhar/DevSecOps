@@ -18,16 +18,29 @@
 
 3. Dependency Security
       ✔ Scan third-party libraries for vulnerabilities
-            Tools:
+          🔐Tools:
               Dependabot
               Snyk
 
 4. Container Security (if using Docker)
       ✔ Scan Docker images before deployment
-            Tools:
+          🔐Tools:
                 Trivy
                 Aqua Security
 
 5. Secrets Management
+      ✔ Avoid hardcoding secrets
+            Use: 
+              GitHub Secrets (encrypted)
+              Environment variables
+
 6. Continuous Deployment (CD)
+      ✔ Deploy application automatically
+          Examples:
+              Deploy to AWS / Azure / Kubernetes
+              Use approval gates for production
+
 7. DAST (Runtime Security Testing)
+      ✔ Test running application for vulnerabilities
+            🔐 Tools:
+                OWASP ZAP
