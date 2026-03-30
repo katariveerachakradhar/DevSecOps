@@ -1,9 +1,33 @@
 🔹 CI/CD Flow with Security Integration
 
 1. Code Commit (Trigger)
+  Developer pushes code to GitHub (main/dev branch)
+  Workflow is triggered automatically
+
 2. Continuous Integration (CI)
+    Goal: Build + Test + Scan code
+    ✔ Steps:
+        Checkout code
+        Install dependencies
+        Run unit tests
+        Build application
+      SAST (Static Code Analysis) → Find vulnerabilities in code
+          Example tools:
+              CodeQL
+              SonarQube
+
 3. Dependency Security
+      ✔ Scan third-party libraries for vulnerabilities
+            Tools:
+              Dependabot
+              Snyk
+
 4. Container Security (if using Docker)
+      ✔ Scan Docker images before deployment
+            Tools:
+                Trivy
+                Aqua Security
+
 5. Secrets Management
 6. Continuous Deployment (CD)
 7. DAST (Runtime Security Testing)
