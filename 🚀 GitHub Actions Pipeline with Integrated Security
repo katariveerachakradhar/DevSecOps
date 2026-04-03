@@ -1,0 +1,10 @@
+🔁 End-to-End Flow
+Code pushed to GitHub
+GitHub Actions triggers pipeline
+Run tests + security scans (SAST, dependencies)
+Build Docker image
+Scan container image
+Push to registry
+Deploy to Kubernetes / cloud
+Run DAST (runtime testing)
+
