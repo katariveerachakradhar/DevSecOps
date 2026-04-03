@@ -8,3 +8,28 @@ Push to registry
 Deploy to Kubernetes / cloud
 Run DAST (runtime testing)
 
+🔐 Security Integrated at Every Stage
+
+1. SAST (Static Code Analysis)
+          Tool: CodeQL
+
+👉 Finds vulnerabilities in source code before build
+
+2. Dependency Scanning
+          Tools:  Dependabot, Snyk
+
+👉 Detects vulnerable libraries (CVEs)
+
+3. Secrets Management
+          Use GitHub Secrets
+👉 Prevents hardcoding credentials 
+
+4. Container Security
+          Tool: Trivy
+
+👉 Scans Docker images before deployment
+
+5. DAST (Runtime Security)
+          Tool: OWASP ZAP
+
+👉 Tests running app for real-time vulnerabilities
