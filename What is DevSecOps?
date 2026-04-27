@@ -1,0 +1,25 @@
+DevSecOps (Development + Security + Operations) means embedding security into every stage of the DevOps pipeline, instead of treating it as a final checkpoint.
+
+Instead of: Build → Test → Deploy → then check security ❌
+
+DevSecOps does: Plan → Code → Build → Test → Release → Deploy → Monitor
+
+with security at every step ✅
+
+Key idea:
+
+“Shift Left Security” → catch vulnerabilities early (during coding/build stage)
+
+Automate security checks inside CI/CD pipelines
+
+Example in real pipeline:
+
+Developer commits code -→
+
+Pipeline runs:
+  Static code scan (SonarQube)
+  Dependency scan (Mend)
+  Container scan (Trivy)
+  Dynamic scan (OWASP ZAP)
+
+Only if everything passes → deploy
