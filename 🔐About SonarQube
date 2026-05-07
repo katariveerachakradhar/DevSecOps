@@ -1,0 +1,24 @@
+What it is?
+SonarQube is a Static Application Security Testing (SAST) tool.
+
+What it does?
+Scans source code without running it
+Finds:
+    Bugs
+    Security vulnerabilities
+    Code smells
+    Duplicate code
+
+Key features:
+    Quality Gates (fail build if issues found)
+    Supports multiple languages (Java, Python, JS, etc.)
+    Integrates with:
+          Azure DevOps
+          Jenkins
+          GitHub Actions
+
+Example:
+      Detects:
+          SQL Injection risks
+          Hardcoded passwords
+          Poor coding practices
