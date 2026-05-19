@@ -8,11 +8,12 @@ What it scans:
     Infrastructure as Code (Terraform, etc.)
 
 What it detects:
-OS vulnerabilities
-Library/package vulnerabilities
-Misconfigurations
-Secrets
-Example:
-trivy image nginx
-Why it's important:
-Ensures your container images are secure before deployment
+    OS vulnerabilities
+    Library/package vulnerabilities
+    Misconfigurations
+    Secrets
+
+Example:  trivy image nginx
+
+Why it's important?
+  Ensures your container images are secure before deployment
