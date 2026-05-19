@@ -2,10 +2,11 @@ What it is?
   Trivy is a container and filesystem vulnerability scanner.
 
 What it scans:
-Docker images
-Kubernetes clusters
-Filesystem
-Infrastructure as Code (Terraform, etc.)
+    Docker images
+    Kubernetes clusters
+    Filesystem
+    Infrastructure as Code (Terraform, etc.)
+
 What it detects:
 OS vulnerabilities
 Library/package vulnerabilities
